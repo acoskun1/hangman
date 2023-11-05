@@ -32,7 +32,6 @@ class Hangman:
 
         self.list_of_guesses.append(guess)
 
-
     def ask_for_input(self) -> None:
         guess: str = input('Guess a letter: ')
         if not guess.isalpha() or len(guess) != 1:
